@@ -1,0 +1,15 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <h4>Auction ID: {{auctionID}}</h4>
+        <h4>Item: {{bidItem}}</h4>
+        <h4>Quantity: {{bidQty}}</h4>
+      </div>
+      <div class="col-sm-4">
+        <h1 class="display-1"><span>{{bidderNos}}</span></h1>
+        <button mat-raised-button color="warn" (click)="stopAuction()">Stop Auction</button>
+      </div>
+    </div>
+  </div>
+</div>

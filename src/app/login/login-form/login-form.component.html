@@ -1,0 +1,28 @@
+<div class="loginForm">
+  <form class="loginform">
+    <mat-form-field class="full-width">
+      <input matInput placeholder="Username" value="">
+    </mat-form-field>
+
+    <br>
+    <br>
+
+    <mat-form-field class="full-width">
+      <input matInput placeholder="Password" type="Password">
+    </mat-form-field>
+
+    <br>
+    <br>
+
+    <mat-radio-group aria-label="Select an option">
+      <mat-radio-button value="Supplier">Supplier</mat-radio-button>
+      &nbsp;
+      <mat-radio-button value="Manufacturer">Manufacturer</mat-radio-button>
+    </mat-radio-group>
+
+    <br>
+    <br>
+
+    <a routerLink="/manufacturer_dash"><button (click)="onClick()" mat-raised-button color="primary" >Login</button></a>
+  </form>
+</div>
